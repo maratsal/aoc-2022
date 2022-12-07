@@ -1,4 +1,5 @@
 #!/usr/local/bin/bash
+# using bash ver >4
 
 push() {
   eval "STACK$1+=(\"$2\")"
