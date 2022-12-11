@@ -136,8 +136,6 @@ do
   done
 done
 
-echo $VISIBLE
-
 HSS=0
 for ROW in $(seq 2 $((ROWS-1)))
 do
@@ -156,4 +154,5 @@ do
   done
 done
 
+echo $VISIBLE
 echo $HSS
